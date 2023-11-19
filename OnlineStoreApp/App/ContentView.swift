@@ -26,6 +26,7 @@ struct ContentView: View {
                 
                 FooterView()
                     .padding(.horizontal)
+                    .padding(.bottom)
             }
             .background(colorBackground).ignoresSafeArea(.all, edges: .all)
         }
