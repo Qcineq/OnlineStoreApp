@@ -20,7 +20,7 @@ struct FooterView: View {
                 .foregroundColor(.gray)
                 .layoutPriority(0)
             
-            Text("Copyright © Salon Broni\nWszelkie prawa zastrzeżone")
+            Text("Wszelkie prawa zastrzeżone")
                 .font(.footnote)
                 .fontWeight(.bold)
                 .foregroundStyle(.gray)
