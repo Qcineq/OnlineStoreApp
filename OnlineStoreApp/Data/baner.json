@@ -1,0 +1,22 @@
+[
+  {
+    "id" : 1,
+    "image" : "beretta-photo"
+  },
+  {
+    "id" : 2,
+    "image" : "stag-arms-photo"
+  },
+  {
+    "id" : 3,
+    "image" : "mossberg-photo"
+  },
+  {
+    "id" : 4,
+    "image" : "sogx-photo"
+  },
+  {
+    "id" : 5,
+    "image" : "accessories-photo"
+  }
+]

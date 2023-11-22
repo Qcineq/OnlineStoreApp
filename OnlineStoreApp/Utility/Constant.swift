@@ -8,9 +8,10 @@
 import SwiftUI
 
 // DATA
+
+let baner: [Baner] = Bundle.main.decode("baner.json")
+
 // COLOR
-
-
 
 let colorBackground: Color = Color("ColorBackground")
 let colorGray: Color = Color(red: 110/255, green: 110/255, blue: 110/255)
