@@ -1,0 +1,82 @@
+[
+  {
+    "id" : 1,
+    "name" : "Amunicja",
+    "image" : "icon-ammo"
+  },
+  {
+    "id" : 2,
+    "name" : "Magazynki",
+    "image" : "icon-mags"
+  },
+  {
+    "id" : 3,
+    "name" : "Celowniki",
+    "image" : "icon-sight"
+  },
+  {
+    "id" : 4,
+    "name" : "Tłumiki",
+    "image" : "icon-silencer"
+  },
+  {
+    "id" : 5,
+    "name" : "Etui",
+    "image" : "icon-case"
+  },
+  {
+    "id" : 6,
+    "name" : "Konserwacja",
+    "image" : "icon-clean"
+  },
+  {
+    "id" : 7,
+    "name" : "Samoobrona",
+    "image" : "icon-gas"
+  },
+  {
+    "id" : 8,
+    "name" : "Słuch",
+    "image" : "icon-headphones"
+  },
+  {
+    "id" : 9,
+    "name" : "Wzrok",
+    "image" : "icon-glasses"
+  },
+  {
+    "id" : 10,
+    "name" : "Apteczki",
+    "image" : "icon-first-aid-kit"
+  },
+  {
+    "id" : 11,
+    "name" : "Kamizelki",
+    "image" : "icon-vest"
+  },
+  {
+    "id" : 12,
+    "name" : "Rękawiczki",
+    "image" : "icon-gloves"
+  },
+  {
+    "id" : 13,
+    "name" : "Pasy",
+    "image" : "icon-belt"
+  },
+  {
+    "id" : 14,
+    "name" : "Tarcze",
+    "image" : "icon-target"
+  },
+  {
+    "id" : 15,
+    "name" : "Plecaki",
+    "image" : "icon-backpack"
+  },
+  {
+    "id" : 16,
+    "name" : "Lasery",
+    "image" : "icon-laser"
+  }
+]
