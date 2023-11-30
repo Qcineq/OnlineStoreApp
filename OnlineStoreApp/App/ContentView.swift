@@ -18,7 +18,8 @@ struct ContentView: View {
                 NavigationBarView()
                     .padding(.horizontal, 15)
                     .padding(.bottom)
-                    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+//                    .padding(.top, UIApplication.shared.windows.first?.safeAreaInsets.top)
+                    .padding(.top, UIApplication.shared.connectedScenes.flatMap {($0 as? UIWindowScene)?.windows ?? [] }.first {$0.isKeyWindow}?.safeAreaInsets.top)
                     .background(Color.white)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
@@ -32,9 +33,17 @@ struct ContentView: View {
                         
                         TitleView(title: "Pistolety")
                         
+                        LazyVGrid(columns: gridLayout, spacing: 15, content: {
+                            ForEach(products) { product in
+                                ProductItemView(product: product)
+                            }
+                        })
+                        .padding(15)
+                        
                         FooterView()
                             .padding(.horizontal)
                     }
+                    .padding(.bottom)
                 })
             }
             .background(colorBackground).ignoresSafeArea(.all, edges: .all)
