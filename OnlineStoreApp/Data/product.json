@@ -1,0 +1,17 @@
+[
+  {
+    "id" : 1,
+    "name" : "Beretta 92X Performance",
+    "image" : "beretta-92x",
+    "price" : 7800,
+    "description" : "Beretta 92X Performance Optic kal. 9x19 mm pistolet zmodyfikowany tak aby najlepiej sprostać użytkownikom w dziedzinie strzelectwa dynamicznego, przygotowany do pracy również z kolimatorami.  Stalowy szkielet, cięższy zamek typu Brigadier i mechanizm spustowy Extreme-S o drodze zredukowanej o 40% i oporze 1,5 kg w trybie SA to kluczowe cechy pistoletu Beretta 92X Performance Optic. Szkielet tupu Vertec z obszernym lejkiem posiada pionowy kąt chwytu, sama masa broni po zabiegach poprawkowych osiąga do 1350 gramów. Cecha ta ma stabilizować pistolet Beretta 92X Performance Optic podczas strzelania i redukować podrzut.   Pistolet Beretta 92x Performance Optic w przedniej części zamka posiada dodatkowe nacięcia pomagające w  przy przeładowaniu. Nacięciami pokryty został również przód i tył szkieletu. Projektanci powiększyli przycisk zwolnienia magazynka z możliwością zamontowania po obu stronach chwytu. Mechaniczne przyrządy w Beretta 92x Performance Optic wyposażone we wkładkę światłowodową, szczerbina jest regulowana w pionie i poziomie. Droga mechanizmu spustowego przed i po strzale jest regulowana śrubami wewnątrz szkieletu. Całości nadano dwukolorowe wykończenie w technologii Nistan. W zestawie znajdują się 2x15 nabojowe magazynki z powiększoną gumową stopką.",
+  },
+  {
+    "id" : 2,
+    "name" : "Glock 17 MOS Tactical",
+    "image" : "glock-17",
+    "price" : 4400,
+    "description" : "Glock 17 piątej generacji w wersji MOS Tactical. Pistolet ten charakteryzuje niezwykle wytrzymała konstrukcja oraz ergonomia. Dzięki zrezygnowaniu z wycięcia na palce, broń idealnie leży w dłoni, niezależnie od jej wielkości. Dodatkowo, Glock 17 został wyposażony w dźwignię zwalniającą zamek po obu stronach, sprawiając że pistolet austriackiej produkcji jest bardziej przystępny dla osób leworęcznych. Całość konstrukcji została wykończona powłoką nDLC, zapewniając ochronę przed wszelkiego rodzaju uszkodzeniami mechanicznymi oraz rdzewieniem. Ponadto, powiększeniu uległo gniazdo magazynka, ułatwiając tym samym jego szybką wymianę (magazynki z poprzednich generacji są kompatybilne z gniazdem 5 generacji). Usprawnione zostały tez takie elementy jak mechanizm spustowy oraz iglica wraz z bezpiecznikiem. Glock 17 w wersji MOS Tactical posiada dodatkowo szynę montażową, umożliwiającą założenie kolimatora oraz gwintowaną lufę, pozwalając zainstalować tłumik lub kompensator.",
+
+  }
+]
