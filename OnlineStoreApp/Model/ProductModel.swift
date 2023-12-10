@@ -13,4 +13,6 @@ struct Product: Codable, Identifiable {
     let image: String
     let price: Int
     let description: String
+    
+    var formattedPrice: String { return "\(price) PLN"}
 }

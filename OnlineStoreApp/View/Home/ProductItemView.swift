@@ -31,7 +31,7 @@ struct ProductItemView: View {
                 .font(.title3)
                 .fontWeight(.black)
             // PRICE
-            Text("\(product.price) PLN")
+            Text(product.formattedPrice)
                 .fontWeight(.semibold)
                 .foregroundStyle(.gray)
         })
