@@ -31,11 +31,15 @@ struct TopPartDetailView: View {
             Spacer()
             
             // PHOTO
-            Image(sampleProduct.image)
-                .resizable()
-                .scaledToFit()
-                .offset(y: isAnimating ? 0 : -35)
-                .shadow(radius: 4, x: 10, y: 30)
+            
+            Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+                Image(sampleProduct.image)
+                    .resizable()
+                    .scaledToFit()
+                    .offset(y: isAnimating ? 0 : -35)
+                    .shadow(radius: 4, x: 10, y: 30)
+            })
+            
         })
         .onAppear(perform: {
             withAnimation(.easeOut(duration: 0.75)) {
