@@ -37,16 +37,23 @@ struct ProductDetailView: View {
                     .padding(.bottom, 10)
                 
                 // DESCRIPTION
-                ScrollView(.vertical, showsIndicators: false, content: {
+                ScrollView(.vertical, showsIndicators: true, content: {
                     Text(sampleProduct.description)
                         .font(.system(.body, design: .rounded))
                         .foregroundStyle(.gray)
                         .multilineTextAlignment(.leading)
                 })
-                .padding(.bottom, UIScreen.main.bounds.height * 0.1)
+                .padding(.bottom, UIScreen.main.bounds.height * 0.02)
                 
                 // QUANTITY + FAVOURITE
+                QuantityFavouriteDetailView()
+                    .padding(.vertical, 10)
+                    .padding(.horizontal, 5)
+                
                 // ADD TO CART
+                AddToCartDetailView()
+                    .padding(.bottom, 20)
+                
                 Spacer()
             })
             .padding(.horizontal)
