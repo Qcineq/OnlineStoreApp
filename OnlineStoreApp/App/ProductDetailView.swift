@@ -10,6 +10,8 @@ import SwiftUI
 struct ProductDetailView: View {
     //MARK: - PROPERTY
     
+    @EnvironmentObject var shop: Shop
+    
     //MARK: - BODY
     
     var body: some View {
@@ -38,7 +40,7 @@ struct ProductDetailView: View {
                 
                 // DESCRIPTION
                 ScrollView(.vertical, showsIndicators: true, content: {
-                    Text(sampleProduct.description)
+                    Text(shop.selectedProduct?.description ?? sampleProduct.description)
                         .font(.system(.body, design: .rounded))
                         .foregroundStyle(.gray)
                         .multilineTextAlignment(.leading)
@@ -72,5 +74,6 @@ struct ProductDetailView: View {
 
 #Preview {
     ProductDetailView()
+        .environmentObject(Shop())
         .previewLayout(.fixed(width: 375, height: 812))
 }
