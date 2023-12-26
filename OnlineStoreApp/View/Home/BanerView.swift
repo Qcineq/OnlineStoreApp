@@ -15,10 +15,13 @@ struct BanerView: View {
     //MARK: - BODY
     
     var body: some View {
-        Image(baner.image)
-            .resizable()
-            .scaledToFit()
-            .cornerRadius(12)
+        
+        Button(action: /*@START_MENU_TOKEN@*/{}/*@END_MENU_TOKEN@*/, label: {
+            Image(baner.image)
+                .resizable()
+                .scaledToFit()
+                .cornerRadius(12)
+        })
     }
 }
 
