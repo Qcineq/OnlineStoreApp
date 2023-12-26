@@ -20,7 +20,7 @@ This mobile application is a simple online store built using Swift with SwiftUI 
 
 ## Screenshots
 
-![Product Details](OnlineStoreApp/Assets.xcassets/Logo/logo-main.imageset/logo-main.png)
+![Product Details](OnlineStoreApp/Assets.xcassets/ReadMePhoto/Readme.imageset/Readme.png)
 
 *Screenshot: Launch Screen, Main View, List of Products and Product details view with clear description and images.*
 
